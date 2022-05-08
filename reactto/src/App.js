@@ -1,8 +1,10 @@
-
+import react from "react";
+import UseState from "./components/UseState";
 
 function App() {
   return (
     <div className="App">
+      <UseState/>
     </div>
   );
 }
