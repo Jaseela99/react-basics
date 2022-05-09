@@ -1,10 +1,12 @@
-import react from "react";
-import UseState from "./components/UseState";
+import React from "react";
+//import UseState from "./components/UseState";
+import Class from "./components/Class";
 
 function App() {
   return (
     <div className="App">
-      <UseState/>
+     {/*  <UseState/> */}
+      <Class/>
     </div>
   );
 }
