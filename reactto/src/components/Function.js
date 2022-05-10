@@ -4,9 +4,10 @@ const Function = (props) => {
   return (
       
     <div>
-        <h1>UserLISt</h1>
         <div>
-        {props.children} age:{props.age}
+          {/* to pass content we use props.children */}
+        {props.children}   
+        | age:{props.age}
             </div>
             </div>
   )
