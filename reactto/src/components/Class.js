@@ -23,6 +23,7 @@ class Class extends Component {
   render() {
     return (
       <div>
+        {/* if we use reduceAge() in here then,the function exexcutes immediately */}
         <button onClick={this.reduceAge}>age reduce</button>
         <h1>{this.state.title}</h1>
 
