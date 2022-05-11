@@ -4,7 +4,8 @@ import Child from './Child'
 const Parent = () => {
 
     const [data,setData] = React.useState("hello")
-    //this executes when callback from chld component triggers
+    //callback for child component and will retrieve data from child
+    //passed callback to child as props
     const trigger= (data) => {
         setData(data)
     }
