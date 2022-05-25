@@ -1,17 +1,21 @@
 import React from "react";
-import UseState from "./components/UseState";
+import ReactRouting from "./components/ReactRouting";
+/* import UseState from "./components/UseState";
 import Class from "./components/Class";
 import Events from "./components/Events";
 import Parent from "./components/Parent";
 import ListContainer from "./components/ListContainer";
+import Lifeycle from "./components/Lifeycle"; */
 function App() {
   return (
     <div className="App">
-      <UseState/> 
+      <ReactRouting />
+    {/*   <UseState/> 
       <Class/> 
     <Events/> 
     <Parent/> 
    <ListContainer/>
+   <Lifeycle/> */}
     </div>
   );
 }
