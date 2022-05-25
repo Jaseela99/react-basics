@@ -1,6 +1,7 @@
 import React from "react";
-import ReactRouting from "./components/ReactRouting";
-/* import UseState from "./components/UseState";
+import UseMemo from "./components/UseMemo";
+/*import ReactRouting from "./components/ReactRouting";
+ import UseState from "./components/UseState";
 import Class from "./components/Class";
 import Events from "./components/Events";
 import Parent from "./components/Parent";
@@ -9,8 +10,9 @@ import Lifeycle from "./components/Lifeycle"; */
 function App() {
   return (
     <div className="App">
-      <ReactRouting />
-    {/*   <UseState/> 
+      <UseMemo/>
+      {/*<ReactRouting />
+       <UseState/> 
       <Class/> 
     <Events/> 
     <Parent/> 
