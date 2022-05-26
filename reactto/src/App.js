@@ -1,6 +1,7 @@
 import React from "react";
-import UseMemo from "./components/UseMemo";
-/*import ReactRouting from "./components/ReactRouting";
+import Todo from "./components/Todo";
+/*import UseMemo from "./components/UseMemo";
+import ReactRouting from "./components/ReactRouting";
  import UseState from "./components/UseState";
 import Class from "./components/Class";
 import Events from "./components/Events";
@@ -10,8 +11,9 @@ import Lifeycle from "./components/Lifeycle"; */
 function App() {
   return (
     <div className="App">
-      <UseMemo/>
-      {/*<ReactRouting />
+      <Todo/>
+      {/*<UseMemo/>
+      <ReactRouting />
        <UseState/> 
       <Class/> 
     <Events/> 
